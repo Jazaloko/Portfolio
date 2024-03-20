@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jazael | Jazael Valeron Cabrera</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="max-width-contenedor">
+        <header>
+
+            <p>Jazael Valeron</p>
+            <nav>
+                <ul>
+                    <li class="web1"><a href="#">Inicio</a></li>
+                    <li class="web2"><a href="#">Skills</a></li>
+                    <li class="web3"><a href="#">Proyectos</a></li>
+                </ul>
+            </nav>
+            <figure class="logo" id="logo">
+                <a href="#" class="btn-active" id="menu">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M4 7L7 7M20 7L11 7" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round">
+                            </path>
+                            <path d="M20 17H17M4 17L13 17" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round">
+                            </path>
+                            <path d="M4 12H7L20 12" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+                <a href="#" class="btn" id="menu2">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g id="Menu / Close_LG">
+                                <path id="Vector" d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                                    stroke="#ff7b00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </figure>
+        </header>
+        <div class="nav">
+            <ul>
+                <li class="web1"><a href="#">Inicio</a></li>
+                <li class="web2"><a href="#">Skills</a></li>
+                <li class="web3"><a href="#">Proyectos</a></li>
+            </ul>
+        </div>
+        <main>
+            <h2>
+                Sobre mi:
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+                lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
+                viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
+                et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
+                congue enim, ut porta lorem lacinia consectetur.
+            </p>
+            <a href="#form" class="contacto">Contactar</a>
+        </main>
+        <div class="footer-container">
+            <footer>
+                <figure>
+                    <img src="./img/Default_pfp.svg" alt="fotoPerfil">
+                </figure>
+                <div class="footer-text">
+                    <h2>
+
+                    </h2>
+                    <p>
+
+                    </p>
+                </div>
+                <form class="formulario-contacto">
+                    <label for="form-nombre"></label>
+                    <input type="text" placeholder="Nombre:" id="form-nombre">
+                    <p class="error" id="Nombre-error"></p>
+
+                    <label for="form-correo"></label>
+                    <input type="email" placeholder="Email:" id="form-correo">
+                    <p class="error" id="Email-error"></p>
+
+                    <label for="form-mensaje"></label>
+                    <textarea name="" id="form-mensaje" cols="30" rows="10" placeholder="Mensaje:"></textarea>
+                    <p class="error" id="Mensaje-error"></p>
+                </form>
+                <button class="btn-enviar">Enviar</button>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/ValidacionFormulario.js"></script>
+    <script src="./js/MenuHamburguesa.js"></script>
+</body>
+
+</html>

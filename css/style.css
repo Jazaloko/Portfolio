@@ -1,0 +1,245 @@
+:root {
+
+    /*colores*/
+
+    --Naranja: rgb(255, 123, 0);
+    --Blanco: rgb(255, 255, 255);
+    --ColorCarne: Antiquewhite;
+    --Negront: #242424;
+    --Rojont: rgba(255, 111, 91, 1);
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.max-width-contenedor{
+    max-width: 100rem;
+    margin: 1rem;
+}
+
+body{
+    background-color: var(--ColorCarne);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--Negront);
+    border: 1px solid;
+    border-radius: 1.5rem;
+}
+
+header nav{
+    display: none;
+}
+.btn-active{
+
+}
+.btn{
+    display: none;
+}
+
+header nav ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 1rem;
+}
+
+header figure{
+    width: 5rem;
+}
+
+header svg{
+    width: 100%;
+    height: auto;
+    color: var(--Naranja);
+    fill: var(--Naranja);
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -.33px;
+    color: var(--Blanco);
+}
+
+/* nav */
+
+.nav{
+    display:none;
+}
+
+.nav.activo{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Negront);
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    align-items: center;
+    pointer-events: auto;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -.33px;
+    color: var(--Blanco);
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.nav li{
+    padding: 1rem;
+}
+
+.web1,.web2{
+    border-bottom: 2px solid var(--Naranja);
+}
+
+/* main */
+
+main{
+    background-color: var(--Negront);
+    border-radius: 1.5rem;
+    text-align: left;
+    padding: 3.5rem;
+    margin-top: 1rem;
+}
+
+main h2{
+    margin: 0;
+    margin-top: 1rem;
+    color: var(--Naranja);
+    font-size: 5rem;
+}
+
+main p{
+    color: var(--Blanco);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.contacto{
+    color: var(--Blanco);
+    border-bottom: 2px solid var(--Naranja);
+    line-height: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 1rem; 
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--Negront);
+    margin: 0;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+footer figure{
+    width: 10rem;
+}
+footer img{
+    width: 100%;
+}
+label {
+    display: none;
+}
+form input {
+    background-color: var(--Negront);
+    border: none;
+    border-bottom: 2px solid var(--Naranja);
+    color: #FFFFFF;
+    height: 4rem;
+    width: 34rem;
+}
+
+form input::placeholder, textarea::placeholder {
+    color: var(--Blanco);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+form textarea {
+    background-color: var(--Negront);
+    border: none;
+    border-bottom: 2px solid var(--Naranja);
+    color: #FFFFFF;
+    height: 107px;
+    width: 343px;
+}
+
+#form-email,#form-mensaje {
+    margin-top: 1.5rem;
+}
+
+.btn-enviar {
+    color: var(--Blanco);
+    border: none;
+    border-bottom: 2px solid var(--Naranja);
+    background-color: var(--Negront);
+    line-height: 3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding-bottom: 1rem; 
+    padding-top: 1rem;
+    cursor: pointer;
+    
+}
+
+.error{
+    color: var(--Rojont);
+    font-weight: 500;
+    font-size: 1rem;
+    height: 1.5rem;
+    letter-spacing: -0.17px;
+    margin: 0;
+    padding-top: 0.5rem;
+    text-align: right;
+}

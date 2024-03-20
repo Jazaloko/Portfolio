@@ -1,0 +1,20 @@
+{
+    "habilidades": [
+        {
+            "nombre": "HTML",
+            "tiempo": "3 años"
+        },
+        {
+            "nombre": "CSS",
+            "tiempo": "3 años"
+        },
+        {
+            "nombre": "JavaScript",
+            "tiempo": "1 año"
+        },
+        {
+            "nombre": "Java",
+            "tiempo": "1 año"
+        }
+    ]
+}
