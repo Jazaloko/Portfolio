@@ -50,17 +50,17 @@ function populateMain(jsonObj){
         div.appendChild(a)
     }
 
-    const div2 = document.createElement("div")
-    div2.classList.add("dots")
-    for (var i = 0; i < 2; i++){
-        const span = document.createElement("span")
-        span.classList.add("dot")
-        if (i = 0){
-            span.classList.add("active")
-        }
-        span.onclick = cambiarProyecto(i)
-        main.appendChild(span)
-    }
+    // const div2 = document.createElement("div")
+    // div2.classList.add("dots")
+    // for (var i = 0; i < 2; i++){
+    //     const span = document.createElement("span")
+    //     span.classList.add("dot")
+    //     if (i = 0){
+    //         span.classList.add("active")
+    //     }
+    //     span.onclick = cambiarProyecto(i)
+    //     main.appendChild(span)
+    // }
     
 
     // for (let index = 0; index < listProyects.lenght; index++) {
