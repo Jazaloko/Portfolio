@@ -1,20 +1,17 @@
 {
-    "proyectos":[
+    "titulo": "Proyectos",
+    "proyectos": [
         {
-            "nombre": "",
-            "habilidades": ""
+            "imagen": "../img/image-product-mobile.jpg",
+            "nombre": "Product Preview",
+            "habilidades": "HTML / CSS",
+            "url": "#"
         },
         {
-            "nombre": "",
-            "habilidades": ""
-        },
-        {
-            "nombre": "",
-            "habilidades": ""
-        },
-        {
-            "nombre": "",
-            "habilidades": ""
+            "imagen": "../img/Default_pfp.svg",
+            "nombre": "Paco",
+            "habilidades": "HTLM",
+            "url": "#"
         }
     ]
 }

@@ -24,6 +24,7 @@ html {
 
 .max-width-contenedor{
     max-width: 100rem;
+    width: 95%;
     margin: 1rem;
 }
 
@@ -142,6 +143,14 @@ main h2{
     margin-top: 1rem;
     color: var(--Naranja);
     font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+main h3{
+    margin: 0;
+    margin-top: 1rem;
+    color: var(--Naranja);
+    font-size: 2rem;
 }
 
 main p{
@@ -178,10 +187,10 @@ footer{
     padding-bottom: 2rem;
 }
 
-footer figure{
+figure{
     width: 10rem;
 }
-footer img{
+img{
     width: 100%;
 }
 label {
@@ -193,7 +202,7 @@ form input {
     border-bottom: 2px solid var(--Naranja);
     color: #FFFFFF;
     height: 4rem;
-    width: 28rem;
+    width: 35rem;
 }
 
 form input::placeholder, textarea::placeholder {
@@ -210,7 +219,7 @@ form textarea {
     border-bottom: 2px solid var(--Naranja);
     color: #FFFFFF;
     height: 10rem;
-    width: 28rem;
+    width: 35rem;
 }
 
 #form-email,#form-mensaje {
@@ -242,4 +251,75 @@ form textarea {
     margin: 0;
     padding-top: 0.5rem;
     text-align: right;
+}
+
+
+/* Proyectos */
+
+.mainproyectos {
+    text-align: center;
+    padding: 3.5rem;
+    margin-top: 1rem;
+}
+
+.mainproyectos div{
+    background-color: #303030;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem 0 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 42rem;
+}
+
+.mainproyectos p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.mainproyectos a{
+    color: var(--Blanco);
+    border: none;
+    border-bottom: 2px solid var(--Naranja);
+    line-height: 3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding-bottom: 1rem; 
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.mainproyectos figure{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+}
+
+.mainproyectos img {
+    border-radius: 1rem;
+    border: solid var(--Naranja);
+}
+
+.proyecto{
+    display: none;
+}
+
+.active-proyecto{
+
+}
+
+.dot{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 0.2rem solid var(--Naranja);
+    display: inline-block;
+    margin: 2rem 0 4.5rem 0;
+}
+
+.active,
+.dot:hover {
+    background-color: var(--Naranja);
 }
